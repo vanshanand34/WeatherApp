@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">     
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Weather App</a>
+              <div class="navbar" id="navbarSupportedContent">
+                <form class="d-flex flex-nowrap">
+                  <input class="form-control" type="search" placeholder="Search" id="search">
+                  <button class="btn btn-outline-success mx-2" id="mysubmit" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <br><br>
+        <div class="main">
+        <div class="heading text-center"><h1 class="m-1">Weather for <span id="city"></span><i class="bi bi-geo-alt-fill"></i></h1></div>
+        <br><br>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 m-10 col-md-6">
+                    <div class="card">
+                        <div id="temp" class="card-title"><h3>Temperature:</h3></div>
+                        <div class="card-body">
+                            <div id="tempc">Temperature (in &deg;c) :</div>
+                            <div id="tempf">Temperature (in &deg;f) :</div>
+                            <div id="feelc">Feels like (in &deg;c) :</div>
+                            <div id="feelf">Feels like (in &deg;f) :</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 m-10 col-md-6">
+                    <div class="card">
+                        <div class="card-title" id="text"></div>
+                        <div class="card-body">
+                            <div id="humid">Humidity :</div>
+                            <div id="windk">Wind speed(kph) :</div>
+                            <div id="windm">Wind speed(mph) :</div>
+                            <div id="wind_dir">Wind Direction :</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 m-10 col-md-12">
+                    <div class="card">
+                        <div class="card-title"><h3>Location</h3></div>
+                        <div class="card-body">
+                            <div id="name">Name :</div>
+                            <div id="region">Region :</div>
+                            <div id="country">Country :</div>
+                            <div id="last_updated">Last Updated :</div>
+                            <div id="tz_id">TimeZone :</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/fa6e008efc.js" crossorigin="anonymous"></script>
+</html>
