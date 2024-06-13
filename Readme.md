@@ -1,5 +1,5 @@
 ﻿ # Weather-App
-A weather report providing website made using only html , css and js.
+A weather report providing website made using html , css , js and Bootstrap framework.
 User can search for their desired city and its weather details will be represented to the user with an attractive UI.
 ----------------------
 Sample searches :
