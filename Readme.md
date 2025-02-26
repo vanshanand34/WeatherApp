@@ -8,4 +8,5 @@ Sample searches :
 
 ----------------------
 Mobile View:
+
 ![image](https://github.com/user-attachments/assets/aebe4ec3-9b73-448d-adc2-1b3322d9ad76)
